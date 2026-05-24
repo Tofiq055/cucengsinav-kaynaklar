@@ -1,0 +1,14 @@
+module testbench1(); // Testbench has no inputs, outputs
+reg a, b, c; // Will be assigned in initial block
+wire y;
+// instantiate device under test
+ydevresi xyz(.a(a), .b(b), .c(c), .y(y) );d
+// apply inputs one at a time
+initial begin // sequential block
+a = 0; b = 0; c = 0; #10; // apply inputs, wait 10ns
+c = 1; #10; // apply inputs, wait 10ns
+b = 1; c = 0; #10; // etc .. etc..
+c = 1; #10;
+a = 1; b = 0; c = 0; #10;
+end
+endmodule

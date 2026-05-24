@@ -1,0 +1,69 @@
+Go to this website:
+https://www.edaplayground.com/
+
+//as a testbench(left window):
+
+
+// Testbench
+module test;
+
+  reg clk;
+  reg reset;
+  reg d;
+  wire q;
+  wire qb;
+  
+  // Instantiate design under test
+  dff DFF(.clk(clk), .reset(reset),
+          .d(d), .q(q), .qb(qb));
+          
+  initial begin
+    // Dump waves
+    $dumpfile("dump.vcd");
+    $dumpvars(1);
+    
+
+
+    clk = 0;
+    reset = 1;
+    d = 1'bx;
+    #10;
+ 
+
+    d = 1;
+    reset = 0;
+    #10;
+
+    clk = 1;
+    #10;
+  end
+  
+
+
+endmodule
+
+//As a design(right window):
+
+module dff (clk, reset,
+  d, q, qb);
+  input      clk;
+  input      reset;
+  input      d;
+  output     q;
+  output     qb;
+
+  reg        q;
+
+  assign qb = ~q;
+
+  always @(posedge clk or posedge reset)
+  begin
+    if (reset) begin
+      // Asynchronous reset when reset goes high
+      q <= 1'b0;
+    end else begin
+      // Assign D to Q on positive clock edge
+      q <= d;
+    end
+  end
+endmodule

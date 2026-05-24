@@ -1,0 +1,25 @@
+module full_adder
+ (
+ i_bit1,
+ i_bit2,
+ w_wire1,
+ w_wire2,
+ o_sum,
+ x_or
+ c_out
+ );
+ 
+ input i_bit1;
+ input i_bit2;
+ input c_in;
+
+ output o_sum;
+ output c_out;
+
+ assign x_or = i_bit1 ^ i_bit2; // bitwise xor
+ assign o_sum = x_or ^ c_in; // bitwise and
+ assign w_wire1 = x_or & c_in;
+ assign w_wire2 = i_bit1 & i_bit2 ;
+ assign c_out= w_wire1 & w_wire2 ;
+
+endmodule

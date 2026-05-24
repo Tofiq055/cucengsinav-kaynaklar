@@ -1,0 +1,34 @@
+
+
+//as a testbench(left window):
+module testbench1; 
+reg a, b;
+  
+model decoder(.a(a), .b(b));
+
+initial begin
+    
+  a<=$random;
+  b<=$random;
+  
+end
+endmodule
+
+
+//As a design(right window):
+
+module decoder(input a,
+             output reg b);
+ 
+always @(a)begin
+  
+  if (a=="00")
+ b <= "0001";
+  else if (a=="01")
+ b <= "0010";
+  else if (a=="10")
+ b <= "0100";
+ else
+ b <= "1000";
+end
+endmodule
