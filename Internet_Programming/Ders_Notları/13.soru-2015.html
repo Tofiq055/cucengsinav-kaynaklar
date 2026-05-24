@@ -1,0 +1,19 @@
+<html>
+<head>
+<style>
+div {background-color:yellow;width:150px;height:100px;}
+</style>
+<script>
+function mOver(obj) { obj.innerHTML="MouseOver";
+obj.style.fontSize="35px";obj.style.color="red"; }
+function mOut(obj) {obj.innerHTML="MouseOutside";
+obj.style.fontSize="25px";
+obj.style.color="blue";}
+</script>
+</head>
+<body>
+<div onmouseover="mOver(this)"
+onmouseout="mOut(this)">
+Mouse Oıtside</div>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<head>
+<style>
+p{width:150px;height:100px;}
+</style>
+<script>
+function click1(obj) { obj.innerHTML="Click";
+obj.style.fontSize="25px";obj.style.color="yellow"; }
+function click2(obj) {obj.innerHTML="Double Click";
+obj.style.fontSize="35px";
+obj.style.color="red";}
+</script>
+</head>
+<body>
+<p onclick="click1(this)" ondblclick="click2(this)">Original Paragraf</p>
+</body>
+</html>
