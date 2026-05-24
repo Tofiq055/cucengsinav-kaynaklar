@@ -1,94 +1,63 @@
 # 🎓 Çukurova Üniversitesi Bilgisayar Mühendisliği Sınav ve Ders Kaynakları
 
 Bu depo, Çukurova Üniversitesi Bilgisayar Mühendisliği (CENG) derslerine ait **sınav soruları, ders notları, sunumlar ve ders video kayıtlarını** içeren topluluk odaklı, açık kaynaklı bir arşivdir. Herkesin kaynak eklemesine ve erişmesine açık olacak şekilde tasarlanmıştır.
-
+ 
 > [!IMPORTANT]
-> Depomuzun temiz ve hafif kalması (GitHub limitlerine takılmaması) için ders videoları ve 10MB üzerindeki büyük PDF kitapları **DVC (Data Version Control)** ile yönetilmektedir. Bu büyük dosyaların asılları güvenli bir **Google Drive** klasöründe barındırılırken, depoda sadece hafif `.dvc` işaretçi dosyaları bulunmaktadır.
-
+> Depomuzun temiz ve hafif kalması (GitHub limitlerine takılmaması) için **ders videoları ve 10MB üzerindeki büyük PDF kitapları/slaytlar** ortak bir **Google Drive** arşivinde barındırılmaktadır. Bu sayede depoyu klonlarken GB'larca veri indirmek zorunda kalmazsınız, dilediğiniz büyük dosyaya tek tıkla erişip doğrudan tarayıcınızda izleyebilir (stream edebilir) veya indirebilirsiniz!
+> 
+> 📂 **Ortak Google Drive Arşiv Bağlantısı:**
+> 👉 **[CENG Ortak Google Drive Arşivi (Tıklayın)](https://drive.google.com/drive/folders/1QnhRlmX3-R50xFZZbqNK07EZqzj9T_zJ?usp=sharing)**
+ 
 > [!TIP]
 > **🤖 Yapay Zeka (AI) Destekli Düzenleme Hikayesi**
-> Bu arşiv başlangıçta oldukça dağınık, düzensiz ve kategorize edilmemiş ham kaynaklardan oluşuyordu. Tüm bu klasör yapısının sıfırdan inşa edilmesi, yüzlerce dosyanın ders bazlı sınıflandırılması, video dosyalarının yüksek verimle sıkıştırılması ve DVC mimarisinin kurulması; **Antigravity** yapay zeka kodlama asistanı ve **Gemini 3.5 Flash** modelinin üstün agentic (eylem alabilen) yetenekleri kullanılarak gerçekleştirilmiştir.
-
+> Bu arşiv başlangıçta oldukça dağınık, düzensiz ve kategorize edilmemiş ham kaynaklardan oluşuyordu. Tüm bu klasör yapısının sıfırdan inşa edilmesi, yüzlerce dosyanın ders bazlı sınıflandırılması ve video dosyalarının yüksek verimle sıkıştırılması; **Antigravity** yapay zeka kodlama asistanı ve **Gemini 3.5 Flash** modelinin üstün agentic (eylem alabilen) yetenekleri kullanılarak gerçekleştirilmiştir.
+ 
 ---
-
+ 
 ## 📂 Depo Yapısı (Course-First Hierarchy)
-
+ 
 Depomuz ders odaklı hiyerarşik bir düzene sahiptir. Her ders klasörünün altında o dersle ilgili tüm kaynakları bulabilirsiniz:
-
+ 
 ```text
 cucengsinav-kaynaklar/
 ├── Algorithms/                # Algorithms
 │   ├── Ders_Notları/
 │   ├── Sınav_Soruları/
-│   └── Ders_Kayitlari/        # DVC tracked files (.dvc)
+│   └── Ders_Kayitlari/        # Ders kayıtları hakkında bilgilendirme
 ├── Operating_Systems/         # Operating Systems
 ├── Database/                  # Database Management Systems
 ├── Circuit_Theory/            # Circuit Theory
 └── ...
 ```
-
+ 
 ---
-
-## 🚀 Başlangıç ve Kaynakları İndirme (DVC Kullanımı)
-
-Büyük dosyaları (video kayıtları ve kalın ders kitapları) yerel bilgisayarınıza indirmek için aşağıdaki adımları sırasıyla takip etmeniz yeterlidir.
-
-### 1. DVC Kurulumu
-
-DVC'yi bilgisayarınıza kurmak oldukça basittir:
-
-*   **Linux (Arch/CachyOS):**
-    ```bash
-    sudo pacman -S dvc
-    ```
-*   **Linux (Ubuntu/Debian):**
-    ```bash
-    sudo apt install dvc
-    ```
-*   **Python ile (Tüm İşletim Sistemleri):**
-    ```bash
-    pip install "dvc[gdrive]"
-    ```
-
-### 2. Büyük Dosyaları Çekme (Download)
-
-Proje dizininde terminali açın ve aşağıdaki tek bir komutla tüm videoları ve büyük PDF'leri Google Drive'dan otomatik olarak indirin:
-
-```bash
-dvc pull
-```
-
-*Not: İlk defa çalıştığında DVC sizden tarayıcı üzerinden Google Drive hesabınızla yetkilendirme (login) yapmanızı isteyecektir.*
-
+ 
+## 🚀 Büyük Boyutlu Kaynaklara ve Videolara Erişim
+ 
+Depomuzda yer alan derslerin **haftalık ders video kayıtları** ve **10MB'tan büyük kalın ders kitapları** GitHub limitleri nedeniyle bu depoda fiziksel olarak barındırılmamaktadır. 
+ 
+Tüm bu büyük kaynaklara **hiçbir kurulum veya Google yetkilendirmesi gerekmeden** anında erişmek için:
+ 
+1.  **[CENG Ortak Google Drive Arşivi (Tıklayın)](https://drive.google.com/drive/folders/1QnhRlmX3-R50xFZZbqNK07EZqzj9T_zJ?usp=sharing)** bağlantısına gidin.
+2.  Karşınıza gelen ders klasörlerinden (örn: *Algorithms*, *Circuit Theory*, *Operating Systems* vb.) çalışmak istediğiniz dersi seçin.
+3.  İstediğiniz ders videosunu indirmeden doğrudan tarayıcı üzerinden izleyebilir veya ders kitaplarını tek tıkla indirebilirsiniz!
+ 
 ---
-
+ 
 ## 🤝 Katkıda Bulunma (Açık Kaynak)
-
-Bu depo tamamen öğrencilerin katkılarıyla büyümektedir. Yeni bir sınav sorusu, ders notu veya ders kaydı eklemek isterseniz aşağıdaki adımları uygulayabilirsiniz:
-
-### Normal Dosya Ekleme (PDF, PPTX, Görsel vb. < 10MB)
+ 
+Bu depo tamamen öğrencilerin katkılarıyla büyümektedir. Yeni bir sınav sorusu, ders notu veya ders kaydı ekleyerek topluluğumuza destek olabilirsiniz:
+ 
+### 📂 Normal Boyutlu Kaynak Ekleme (PDF, PPTX, Görsel vb. < 10MB)
 1.  İlgili dersin klasörüne gidin (örn: `Algorithms/Sınav_Soruları/`).
 2.  Dosyanızı ekleyin.
 3.  Git ile commit edip Pull Request gönderin.
-
-### Büyük Dosya Ekleme (Video Kayıtları ve Devasa Kitaplar > 10MB)
-Büyük boyutlu dosyaları depoya eklemek için DVC'yi kullanıyoruz:
-
-1.  Dosyanızı ilgili klasöre yerleştirin (örn: `Circuit_Theory/Ders_Kayitlari/yeni_video.mp4`).
-2.  Terminalde dosyayı DVC'ye ekleyin:
-    ```bash
-    dvc add Circuit_Theory/Ders_Kayitlari/yeni_video.mp4
-    ```
-    *(Bu komut dosyayı `.gitignore`'a ekler ve `yeni_video.mp4.dvc` adında küçük bir işaretçi dosya oluşturur)*
-3.  İşaretçi dosyasını ve otomatik güncellenen `.gitignore` dosyasını Git'e ekleyin:
-    ```bash
-    git add .gitignore Circuit_Theory/Ders_Kayitlari/yeni_video.mp4.dvc
-    ```
-4.  Değişiklikleri Git ile commit edin ve büyük dosyayı buluta gönderin:
-    ```bash
-    dvc push
-    ```
-5.  Git değişikliklerinizi GitHub'a gönderin ve Pull Request açın!
+ 
+### 🎥 Büyük Boyutlu Kaynak Ekleme (Video Kayıtları ve Kalın Kitaplar > 10MB)
+Büyük boyutlu dosyaları GitHub yerine doğrudan ortak **Google Drive** klasörümüze ekliyoruz:
+1.  Ortak Google Drive klasörümüzdeki ilgili dersin klasörüne gidin.
+2.  Dosyanızı doğrudan oraya yükleyin.
+3.  *Eğer klasöre doğrudan yükleme yetkiniz yoksa veya yeni bir ders klasörü açılması gerekiyorsa, Telegram kanalı üzerinden bizimle iletişime geçebilirsiniz!*
 
 ---
 

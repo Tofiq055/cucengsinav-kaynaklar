@@ -12,11 +12,7 @@ googledrive_uploads/
 # === Optimization Logs ===
 _OPTIMIZATION_LOG/
 
-# === DVC Internal Cache & Temp ===
-.dvc/cache/
-.dvc/tmp/
-
-# === Video Formats (Tracked via DVC / Uploaded to Google Drive) ===
+# === Large Files Saved Locally (Not to be committed to Git) ===
 *.mp4
 *.mkv
 *.avi
@@ -28,7 +24,6 @@ _OPTIMIZATION_LOG/
 *.MKV
 *.AVI
 
-# === DVC Tracked Files (Automatically Managed) ===
 Artificial_Intelligence/Ders_Notları/Doing Data Science Straight Talk from the Frontline.pdf
 Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220225_093605-Meeting Recording.mp4
 Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220225_105443-Meeting Recording.mp4
@@ -149,3 +144,7 @@ Software_Engineering/Ders_Notları/The 8086 microprocessor  architecture, softwa
 .vscode/
 *.swp
 *.swo
+
+# === Scripts ===
+*.py
+*.sh
