@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main(){
+int x=0;
+int *y=&x;
+int **z=&y;
+printf("address of x: %d\n", &x);
+printf("address of y: %d\n", &y);
+printf("address of z: %d\n", &z);
+printf("1- %d\n",&x);
+printf("2- %d\n",*z);
+printf("3- %d\n",y);
+printf("4- %d\n",**z);
+printf("5- %d\n",z);
+return 0;
+}

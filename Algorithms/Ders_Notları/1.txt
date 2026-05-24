@@ -1,0 +1,14 @@
+Assume that the starting location of array a is 2420400 and the starting location of array b is 2420100.  give me output
+     int a[5] = {2,4,6,8,10};
+    int b[5] = {1,3,5,7,9};
+
+    printf("%d\n",*(a+2+b[3]-7));
+    printf("%d\n",*a);
+    printf("%d\n",a);
+    printf("%d\n",b);
+    printf("%d\n",*(&b[4]-2));
+    printf("%d\n",*(b+1) + *(a+2));
+    printf("%d\n",*a + *b + 1);
+    printf("%d\n",*(&a[3] -2) + *b);
+    printf("%d\n",*(&b[4]) + (b[4]));
+    printf("%d\n",a[3] + *(&b[2] + *a));

@@ -1,0 +1,17 @@
+Precedence of operators from highest to lowest are given as below:
+
+*, /, not (highest)
+
++,– , &, mod
+
+Unary –
+
+== , != , < , <= , > , >=
+
+and
+
+or, xor (lowest)
+
+
+
+Associativity of operators are from left-to-right

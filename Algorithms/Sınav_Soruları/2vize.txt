@@ -1,0 +1,31 @@
+#include <cstdio>
+#include <cstring>
+
+
+int main(void)
+{
+   char arr[27] = "algorithms and programming";
+   char tmp;
+   tmp = arr;
+
+   while(tmp != '\0')
+   {
+       tmp++;
+       printf("%c",*tmp);
+       tmp++;
+   }
+
+    return 0;
+}
+char arr[27] = "algorithms and programming";
+   char tmp;
+   tmp = arr;
+
+   while(tmp != '\0')
+   {
+       tmp++;
+       printf("%c",*tmp);
+       tmp++;
+   }
+
+    return 0;

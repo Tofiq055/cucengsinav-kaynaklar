@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <string.h>
+
+
+int main(void)
+{
+    int i, j = 0, k = 0, x, len;
+
+    char stri[10][20], temp;
+    char *str = "hello world!";
+    for (i = 0; str[i] != '\0'; i++) {
+        if (str[i] == ' ')
+        {
+            stri[k][j] = '\0';
+            k++;
+            j = 0;
+        }
+        else {
+            stri[k][j] = str[i];
+            j++;
+        }
+    }
+
+    stri[k][j] = '\0';
+    for (i = 0; i <= k; i++)
+    {
+        len = strlen(stri[i]);
+        for (j = 0, x = len - 1; j < x;  j++, x--)
+        {
+            temp = stri[i][j];
+            stri[i][j] = stri[i][x];
+            stri[i][x] = temp;
+        }
+    }
+    for (i = 0; i <= k; i++) {
+        printf("%s ", stri[i]);
+    }
+    return 0;
+}

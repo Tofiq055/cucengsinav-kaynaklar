@@ -1,0 +1,127 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+#define PRINT(a) {	printf("%d %s %s %f \n",a->id,a->name,a->surname,a->balance);}
+#define MENU() {  printf("1. Add Record\n"); \
+				printf("2. Delete Record\n"); \
+				printf("3. Edit Record\n"); \
+			 	printf("4. List\n"); \
+			    printf("5. Exit Program\n"); 			   }
+			    
+			    #define SUM(a,b) (a+b) 
+
+typedef struct LList {	int id;	char name[20];	char surname[20];
+	float balance;LList* next;} BankAccount; 
+BankAccount *first,*last;
+void SetAccount(BankAccount* item,int tid,char* tname, char* tsurname,float tbalance)
+{	item->id = tid;
+	strcpy(item->name, tname);
+	strcpy(item->surname, tsurname);
+	item->balance = tbalance;}
+void AddItem(int tid,char* tname, char* tsurname,float tbalance)
+{
+	if(first==NULL)
+	{
+		first=(BankAccount *)malloc(sizeof(BankAccount));
+		SetAccount(first,tid,tname, tsurname,tbalance);
+		last=first;
+		last->next = NULL;
+	}
+	else	
+	{
+		last->next=(BankAccount *)malloc(sizeof(BankAccount));
+		last = last->next;
+		SetAccount(last,tid,tname, tsurname,tbalance);
+		last->next = NULL;
+	}
+}
+void List()
+{
+	BankAccount* temp=first;
+	while(temp!=NULL)
+	{	PRINT(temp);
+		temp = temp->next;	}
+}
+void Save()
+{
+	FILE *file = fopen("records.dat","w");
+		BankAccount* temp=first;
+	while(temp!=NULL)
+	{	fprintf(file,"%d %s %s %f \n",temp->id,temp->name,temp->surname,temp->balance);
+		temp = temp->next;	}
+		fclose(file);
+}
+
+int DeleteAccount()
+{
+	int sid;
+	BankAccount* temp;
+	BankAccount* prev;
+	
+	scanf("%d",&sid);
+	temp = first;
+	if(first->id==sid)
+	{	first= first->next;
+		free(temp);	return 1;	}
+	
+			prev = temp;
+			temp = temp->next;
+			while(temp!=NULL)
+			{
+				if(temp->id==sid)
+				{
+					prev->next = temp->next;
+					free(temp);
+					return 1;
+				}
+				prev=temp;
+				temp= temp->next;
+			}
+		
+		return 0;
+	
+}
+int main()
+{
+printf("%d\n",SUM(3,4)*5);
+	first=NULL; last=NULL;
+	int tid,islem; float tbalance; 
+	char tname[20],tsurname[20];
+	FILE* file = fopen("records.dat","r");
+	fscanf(file,"%d %s %s %f",&tid,tname,tsurname,&tbalance);
+	while(!feof(file))	{	AddItem(tid,tname,tsurname,tbalance);
+	fscanf(file,"%d %s %s %f",&tid,tname,tsurname,&tbalance);	}
+	fclose(file);
+	#if 0
+	List();
+	#endif
+	do{
+	
+	MENU();
+	scanf("%d",&islem);
+	switch(islem)
+	{
+		case 1:
+		scanf("%d %s %s %f",&tid,tname,tsurname,&tbalance);	
+		AddItem(tid,tname,tsurname,tbalance);
+			break;
+			case 2:
+				if(DeleteAccount()) printf("Silindi");
+				else printf("Kayit Bulunamadi");
+			break;
+			case 3:
+			break;
+			case 4:
+				List();
+			break;
+			case 5:
+				Save();
+			return 0;
+			break;
+			
+	}
+}while(1);
+	// bitince dosyayi kapat
+// Add Delete Edit(Macro!) functions
+	// save with exit!	
+}
