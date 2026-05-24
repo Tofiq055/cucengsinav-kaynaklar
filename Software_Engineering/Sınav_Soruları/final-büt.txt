@@ -1,0 +1,8 @@
+Final Sýnav sorularý ektedir.
+
+Bütünleme sýnavýnda baþka proje örnekleri üzerinden ayný sorular sorulacaktýr. Yani sorularda örnek verdiðim projeler deðiþecek ve sorularýn cevaplarýný yeni örnek projeler üzerinden vereceksiniz. 
+
+
+Sorular yazýlým geliþtirme yaþam döngüsünün tüm aþamalarý kapsamaktadýr. Bu sebeple yazýlým geliþtirme yaþam döngüsünün tüm aþamalarý, bu aþamalarda kullanýlan yöntem ve yaklaþýmlar, mimariler soru þýklarý içerisinde uygulamalý olarak sorulacaktýr.
+
+Sýnav kapalý kitap ve kapalý kaynak olacaktýr. 2 saat sürecektir.
