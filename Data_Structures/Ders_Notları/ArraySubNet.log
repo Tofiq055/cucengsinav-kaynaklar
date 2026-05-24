@@ -1,0 +1,6 @@
+﻿  Source.cpp
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\ArraySubNet\ArraySubNet\Source.cpp(140,6): warning C4101: 'i': unreferenced local variable
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\ArraySubNet\ArraySubNet\Source.cpp(182,6): warning C4101: 'i': unreferenced local variable
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\ArraySubNet\ArraySubNet\Source.cpp(183,6): warning C4101: 'new_data': unreferenced local variable
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\ArraySubNet\ArraySubNet\Source.cpp(123): warning C4700: uninitialized local variable 'new_data' used
+  ArraySubNet.vcxproj -> C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\ArraySubNet\Debug\ArraySubSet.exe

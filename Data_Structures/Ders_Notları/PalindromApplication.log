@@ -1,0 +1,13 @@
+﻿  Source.cpp
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(61,20): error C2276: '!': illegal operation on bound member function expression
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(77,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(131,17): error C2440: '=': cannot convert from 'QNode *' to 'char'
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(131,11): message : There is no context in which this conversion is possible
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(143,8): error C2065: 'head': undeclared identifier
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(150,2): error C2601: 'check': local function definitions are illegal
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(141): message : this line contains a '{' which has not yet been matched
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(172,29): error C2601: 'deleteHead': local function definitions are illegal
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(141): message : this line contains a '{' which has not yet been matched
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(191,2): error C2601: 'deleteRear': local function definitions are illegal
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(141): message : this line contains a '{' which has not yet been matched
+C:\Users\CAHİT BARKIN ÖZER\Desktop\Ödev Kod\PalindromApplication\PalindromApplication\Source.cpp(141): fatal error C1075: '{': no matching token found
