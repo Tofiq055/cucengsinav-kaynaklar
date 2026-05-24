@@ -1,0 +1,67 @@
+td {
+	text-align: justify;
+	vertical-align: top;
+	font-family:Verdana;
+	font-size:14px;
+	color:#ffffff;
+	line-height:18px;
+}
+
+
+	
+.input{background-color:#fff;
+	width:250px;
+	height:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #7b8490;}
+	
+.message{background-color:#fff;
+	width:250px;
+	height:90px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#584c3f;
+	border:1px solid #7b8490;}
+	
+
+
+
+body {margin:0px; padding:0px; background-image:url(../images/background.jpg); background-repeat:repeat-x; background-color:#180200;}
+.header {background-repeat:no-repeat;}
+.top {background-image:url(../images/top.jpg); background-repeat:no-repeat;}
+.bottom {background-image:url(../images/bottom.jpg); background-repeat:repeat-x;}
+
+.menu         { font-family: Tahoma, serif; font-size:14px; color: #ffffff; text-align:center; display:block; width:100px; padding-top:25px; height:45px; text-decoration:none; float:left; font-weight:bold; background-image:url(../images/batton.jpg); background-repeat:no-repeat; background-position:right top;}
+.menu:link    { font-family: Tahoma, serif; font-size:14px; color: #ffffff; text-align:center; display:block; width:100px; padding-top:25px; height:45px; text-decoration:none; float:left; font-weight:bold; background-image:url(../images/batton.jpg); background-repeat:no-repeat; background-position:right top;}
+.menu:hover   { font-family: Tahoma, serif; font-size:16px; color: #ffffff; text-align:center; display:block; width:100px; padding-top:25px; height:45px; text-decoration:none; float:left; background-image:url(../images/batton1.jpg); background-repeat:no-repeat; font-weight:bold;}
+.menu:active  { font-family: Tahoma, serif; font-size:14px; color: #ffffff; text-align:center; display:block; width:100px; padding-top:25px; height:45px; text-decoration:none; float:left; font-weight:bold; background-image:url(../images/batton.jpg); background-repeat:no-repeat; background-position:right top;}
+
+.menu_bottom         { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:none;}
+.menu_bottom:link    { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:none;}
+.menu_bottom:hover   { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:underline;}
+.menu_bottom:active  { font-family: Verdana, serif; font-size: 14px; color: #ffffff; font-weight:bold; text-decoration:none;}
+
+
+.read         { font-family: Verdana, serif; font-size: 14px; color: #ffffff; text-decoration:underline;}
+.read:link    { font-family: Verdana, serif; font-size: 14px; color: #ffffff; text-decoration:underline;}
+.read:hover   { font-family: Verdana, serif; font-size: 14px; color: #ffffff; text-decoration:none;}
+.read:active  { font-family: Verdana, serif; font-size: 14px; color: #ffffff; text-decoration:underline;}
+
+
+
+
+.name { font-family:Tahoma, serif; font-size:22px;}
+.orang { color:#ff0000;}
+
+
+.pictures { float:left; margin-right:15px;}
+.line {margin-top:10px; margin-bottom:10px;}
+.str { list-style-image: url('../images/str.jpg'); padding-left:15px; margin-left:15px; line-height:25px; margin-top:0px; margin-bottom:0px;}
+
+
+.copyright {margin-top:20px; padding-bottom:20px; margin-left:25px; float:left;}
+.menu_bot {margin-top:20px; padding-bottom:20px; margin-right:25px; float:right;}
+.blok {margin-top:30px; margin-bottom:25px; margin-right:20px; margin-left:20px;}
+.blok1 {margin-top:30px; margin-bottom:25px; margin-right:20px; margin-left:20px;}
