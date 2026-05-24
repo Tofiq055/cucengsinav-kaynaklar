@@ -1,0 +1,28 @@
+// a 
+#include <stdio.h>
+
+int func(int *a, int *b)
+{
+    *a += *a;
+    *b += *a;
+    printf("Output1: %d %d \n", *a, *b);
+    return *a + *b;
+}
+
+int main(int argc, const char* argv[]) {
+    int x = 25, y = 3, result;
+
+    result = func(&x, &y);
+
+    printf("Output2: %d %d %d \n", x, y ,result);
+
+    return 0;
+}
+
+/* b - value
+Output1: 50 53
+Output2: 25 3 103
+b - reference
+Output1: 50 53 
+Output2: 50 53 103
+ */

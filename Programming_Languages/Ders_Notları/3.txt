@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int function(int *k)
+{
+    (*k) += 4;
+    return 3 * (*k) - 1;
+}
+
+int main()
+{
+    int i = 10, j = 10, sum1, sum2;
+
+    sum1 = (i / 2) + function(&i);
+
+    sum2 = (j / 2) + function(&j);
+
+    printf("%d %d\n", sum1, sum2);
+
+    return 0;
+}
+// 46 46
+
+#include <stdio.h>
+
+int function(int *k)
+{
+    (*k) += 4;
+    return 3 * (*k) - 1;
+}
+
+int main()
+{
+    int i = 10, j = 10, sum1, sum2;
+
+    sum1 = function(&i) + (i / 2);
+
+    sum2 = function(&j) + (j / 2);
+
+    printf("%d %d\n", sum1, sum2);
+
+    return 0;
+}
+
+//48 48
