@@ -1,0 +1,20 @@
+package Digits;
+import java.util.Scanner;
+public class Digits {
+	
+	public static void main (String[] args) {
+		
+		Scanner reader = new Scanner(System.in);
+		
+		System.out.print("Enter a number between 0 and 1000 : ");
+		int number = reader.nextInt();
+		
+		int a = number / 100;
+		number = number % 100;
+		int b = number / 10;
+		int c = number % 10;
+		
+		System.out.print("The sum of the digits is : " +(a + b + c));
+	}
+
+}

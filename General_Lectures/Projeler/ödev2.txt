@@ -1,0 +1,6 @@
+Task 5. A problem and its deterministic Pushdown Automaton with 3 states should be planned and explained in detail.
+
+Σ={a,b,c}
+L={a^n b^n c^m n,m≥1}
+
+aabbcc

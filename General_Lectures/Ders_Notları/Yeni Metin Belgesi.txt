@@ -1,0 +1,7 @@
+main()
+{
+    int d[]={1,2,3,4,5};
+    int &p=d[8] ;
+   
+    cout<<p<<endl;
+}

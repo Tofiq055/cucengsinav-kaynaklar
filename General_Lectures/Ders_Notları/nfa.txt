@@ -1,0 +1,5 @@
+A regular language problem that includes at least 5 states NFA solution
+Σ = {0, 1}
+L={(1+0)*11(1+0)*00(1+0)*} 
+
+1111001

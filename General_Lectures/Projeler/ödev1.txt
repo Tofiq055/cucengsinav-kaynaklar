@@ -1,0 +1,11 @@
+Task 4. A problem and its Context Free Grammar with at least 5 rules should be planned and explained in detail.
+
+L={X Y b L M N / where X,Y ∈ (a,b)* / L , M ∈ (a,b) / N ∈ (a)}
+G={(S,X,Y,L,M,N)(a,b),(S->XYbLMN,X->X|a|b|ε,Y->Y|a|b|ε,L->L|a|b,M ->M|a|b,N->a)}
+
+    S= XYbLMN
+    X= X|a|b|ε 
+    Y= Y|a|b|ε
+    L= a|b
+    M= a|b
+    N= a

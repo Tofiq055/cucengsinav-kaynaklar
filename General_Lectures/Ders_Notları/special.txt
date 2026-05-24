@@ -1,0 +1,12 @@
+What is the DFA solution of this problem?
+Σ = {a,b}
+L={ab a* (b+a)* a a* b*}
+
+aba
+abaa
+abaaa
+abaaaa
+abaaab
+ababaab
+abaaaab
+abbab

@@ -1,0 +1,34 @@
+Son teslim tarihi 6 Aralık
+
+ 
+
+ - Cover page, abstract, contents, conclusion ve referanslar gibi önemli kısımlar rapora dahil edilmelidir.
+
+ - Raporun içeriği derinlik, kapsam ve İngilizce dili bakımından yeterli seviyede olmalıdır. 
+
+ - Her figür ve tablonun başlıkları olmalı ve text içerisinde refere edilmelidir.
+
+ - Rapor içeriği section'lar halinde yapılandırılmalı ve numaralandırılmalıdır.
+
+ - Ariel 1,5 aralıklı,12 punto iki tarafa dayalı olcak.
+
+- İntihal olmayacak(pligarism)
+
+ - Konu başlığınıza ait teslim edilmesi gereken kodlanmış programınız var ise teslim edilmelidir
+. Kod mutlaka yorumlanmış olmalıdır. Konu başlığınız kod yazmanızı gerektirmiyorsa bu durumda algoritmanın/gramerin/otomatın
+ nasıl çalıştığını adım adım gösteren en az iki somut örnek eklenmelidir.
+
+ 
+
+Rapor; kapak ve kaynakça dahil en az 5, en fazla 10 sayfa içermelidir Hangi grup üyesinin hangi rapor başlıklarını 
+yazdığı/hangi konu kısımlarını üstlendiğini ilave bir text dosyası ile beyan edilecektir.
+
+ 
+
+Toplamda rapor, kaynak kod, ve beyanname dosyası rar/zip formatında sıkıştırılarak aşağıdaki linke
+ tek bir dosya olarak aşağıdaki isimle yüklenecektir. 
+
+ 
+Dosya adı: derskodu _konu_soyad1_soyad2_soyad3
+
+https://drive.google.com/drive/folders/1pY--V6WBdqsL8QKFPz0Ra72B025QgBC8?usp=sharing

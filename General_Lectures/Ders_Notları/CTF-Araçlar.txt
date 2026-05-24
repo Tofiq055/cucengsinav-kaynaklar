@@ -1,0 +1,37 @@
+(CTF) ARAÇLAR
+Soruların cevaplarını bulmada işinize yarayacak çeşitli web siteleri, komutlar veya programların listesi..
+
+WEB SİTELERİ;
+Base64 - https://www.base64decode.org
+MD5 - http://www.miraclesalad.com/webtools/md5.php
+SHA-1 - http://www.miraclesalad.com/webtools/sha1.php
+ToolZ - http://www.online-toolz.com/
+MX DNS - https://mxtoolbox.com/
+Steganography - http://stylesuxx.github.io/steganography/
+Sezar Şifrelemesi (Caesar cipher) - https://www.xarg.org/tools/caesar-cipher/
+ASCII > Text - https://convert.town/ascii-to-text
+Text > Hexadecimal - http://www.unit-conversion.info/texttools/hexadecimal/
+Binary > Text - http://online-toolz.com/tools/text-binary-convertor.php
+Http Headers - https://headers.cloxy.net/
+Dig - http://dig-nslookup.nmonitoring.com/dns-dig-nslookup.html
+Webarchive - https://web.archive.org
+Nmap - https://pentest-tools.com/network-vulnerability-scanning/tcp-port-scanner-online-nmap
+
+
+
+KOMUTLAR;
+#file dosya : Dosya tipini belirler
+#base64 Enter Çevrilecek veri Ctrl+D : Base64'e Çevirir. (Encode)
+#base64 -d Enter Çevrilecek veri Enter - Ctrl+D : Base64'den Çevirir. (Decode)
+#md5sum Enter Çevrilecek veri Enter - Ctrl+D : MD5'e çevirir. (Encode)
+#strings dosya : Dosya içinde bulunan string ifadeleri listeler.
+#dig : Bilgi toplamaya yarar.
+#nmap : Ağ ve sistem taraması yapar.
+
+
+
+PROGRAMLAR;
+Strings (Windows): Dosya içerinde yer alan string ifadeleri bulur.(www.sysinternals.com)
+https://docs.microsoft.com/tr-tr/sysinternals/downloads/strings
+Pentestbox (Windows): Pentest için araçlar(www.pentestbox.org)
+https://tools.pentestbox.org/

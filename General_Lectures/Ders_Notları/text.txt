@@ -1,0 +1,18 @@
+Task 7. The student should prepare a Turing machine that accept a^m b^n c^(mn) language with only one tape. Student can add new symbols to Γ alphabet.
+Σ={a,b,c}
+Γ={a,b,c,x,□}
+q0=q0(initial state)
+F=q7
+
+pass
+null
+abc
+aa
+bb
+aabcc
+abbcc
+aabbcccc
+aaaabbbcccccccccccc
+
+reject
+aaabcc

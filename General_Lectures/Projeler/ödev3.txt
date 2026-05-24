@@ -1,0 +1,8 @@
+(8 aralık)Task 6. The student should choose a non-context free language problem and prove that it is not an element of CFL using Pumping Lemma.
+
+Regardless of the value of m chosen, there exists some string w in the provided language
+of length greater than m such that there is no way that the string w can be decomposed into
+five parts w = uvxyz and satisfy the following 3 conditions
+1. |vy| > 0
+2. |vxy| ≤ m
+3. u v^i x y^i , z is in the language for all i ≥ 0.

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Homework Tracker</title>
+    <style>
+      .pp {
+        width: 50px;
+        height: 50px;
+        margin-left: 8px;
+      }
+      .d1 {
+        border-color: black;
+        display: grid;
+        grid-template-columns: 100px 1fr;
+      }
+      .d2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-style: solid;
+        border-width: 5px;
+      }
+      .segment {
+        display: none;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        background-color: rgb(163, 162, 159);
+        margin: 10px;
+      }
+      .active-segment {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d1">
+      <div class="d2">
+        <div>
+          <img class="pp" src="Screenshot 2024-04-12 152140.png">
+        </div>
+        <div>
+          <div><button onclick="showSegment(1)">Lesson 1</button></div>
+          <div><button onclick="showSegment(2)">Lesson 2</button></div>
+          <div><button onclick="showSegment(3)">Lesson 3</button></div>
+          <div><button onclick="showSegment(4)">Lesson 4</button></div>
+        </div>
+      </div>
+
+      <div id="segment1" class="segment active-segment">
+        <p>Content for Lesson 1</p>
+        <p>Content for Lesson 1</p>
+        <p>Content for Lesson 1</p>
+      </div>
+      <div id="segment2" class="segment">
+        <p>Content for Lesson 2</p>
+        <p>Content for Lesson 2</p>
+        <p>Content for Lesson 2</p>
+      </div>
+      <div id="segment3" class="segment">
+        <p>Content for Lesson 3</p>
+        <p>Content for Lesson 3</p>
+        <p>Content for Lesson 3</p>
+      </div>
+      <div id="segment4" class="segment">
+        <p>Content for Lesson 4</p>
+        <p>Content for Lesson 4</p>
+        <p>Content for Lesson 4</p>
+      </div>
+    </div>
+
+    <script>
+      function showSegment(segmentIndex) {
+        
+        var segments = document.getElementsByClassName("segment");
+        for (var i = 0; i < segments.length; i++) {
+          segments[i].classList.remove("active-segment");
+        }
+
+        var selectedSegment = document.getElementById("segment" + segmentIndex);
+        selectedSegment.classList.add("active-segment");
+      }
+    </script>
+  </body>
+</html>
+
