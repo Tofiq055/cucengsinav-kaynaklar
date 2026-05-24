@@ -1,0 +1,5 @@
+[core]
+    no_scm = True
+    remote = gdrive-remote
+['remote "gdrive-remote"']
+    url = gdrive://YOUR_GOOGLE_DRIVE_FOLDER_ID

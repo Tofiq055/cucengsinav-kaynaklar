@@ -1,0 +1,151 @@
+# === Python Virtual Environment ===
+.venv/
+venv/
+ENV/
+
+# === Local Backup & Upload Directories ===
+_ARSIV_YEDEK/
+_temp_compressed_videos/
+_TRASH_UNCOMPRESSED/
+googledrive_uploads/
+
+# === Optimization Logs ===
+_OPTIMIZATION_LOG/
+
+# === DVC Internal Cache & Temp ===
+.dvc/cache/
+.dvc/tmp/
+
+# === Video Formats (Tracked via DVC / Uploaded to Google Drive) ===
+*.mp4
+*.mkv
+*.avi
+*.webm
+*.mov
+*.wmv
+*.flv
+*.MP4
+*.MKV
+*.AVI
+
+# === DVC Tracked Files (Automatically Managed) ===
+Artificial_Intelligence/Ders_Notları/Doing Data Science Straight Talk from the Frontline.pdf
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220225_093605-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220225_105443-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220304_092756-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220304_105323-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220311_093557-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220311_110138-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220318_093925-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220318_105702-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220325_094314-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220325_110349-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220401_093641-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220401_104933-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220408_093346-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220408_104554-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220415_093259-Meeting Recording.mp4
+Circuit_Theory/Ders_Kayitlari/Meeting in _General_-20220415_105628-Meeting Recording.mp4
+Circuit_Theory/Ders_Notları/Elektrik-Devreleri 16.pdf
+Circuit_Theory/Ders_Notları/Elektrik-Devreleri(kirchoff node)44. videodasın 80_e kadar.pdf
+Circuit_Theory/Ders_Notları/elektronik-elemanlar-ve-devre-teorisir-boylestad-l-nashelsky-meb.pdf
+Computer_Network/Ders_Notları/Computer_Networks_A_Systems_Approach.pdf
+Control_System/Ders_Notları/(12)Modern Control Systems, 12th Edition_part1.pdf
+Database/Ders_Kayitlari/CEN350 Database Management Systems-20220404_131950-Meeting Recording.mp4
+Database/Ders_Kayitlari/CEN350 Database Management Systems-20220404_142511-Meeting Recording.mp4
+Database/Ders_Kayitlari/CEN350 Database Management Systems-20220425_131924-Meeting Recording.mp4
+Database/Ders_Kayitlari/CEN350 Database Management Systems-20220425_141531-Meeting Recording.mp4
+Database/Ders_Kayitlari/CEN350 Database Management Systems-20220425_152529-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220228_131745-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220228_141608-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220307_132045-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220307_141558-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220307_151731-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220314_131710-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220314_141652-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220314_151544-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220321_131829-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220321_141720-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220321_151808-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220411_131908-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220509_131818-Meeting Recording.mp4
+Database/Ders_Kayitlari/General-20220509_141554-Meeting Recording.mp4
+Database/Ders_Kayitlari/Meeting in _General_-20220221_131735-Meeting Recording.mp4
+Database/Ders_Kayitlari/Meeting in _General_-20220328_131645-Meeting Recording.mp4
+Database/Ders_Kayitlari/Meeting in _General_-20220328_141708-Meeting Recording.mp4
+Database/Ders_Kayitlari/Meeting in _General_-20220516_131921-Meeting Recording.mp4
+Database/Ders_Kayitlari/Meeting in _General_-20220516_141938-Meeting Recording.mp4
+Database/Ders_Kayitlari/Meeting in _General_-20220523_131722-Meeting Recording.mp4
+Database/Ders_Notları/DSC_0135.JPG
+Digital_Design/Ders_Notları/195-Digital Design 4th Edition - Morris Mano.pdf
+Digital_Design/Ders_Notları/Digital_Design_and_Computer_Architecture_2nd_edition.pdf
+Discrete_Mathematics/Ders_Kayitlari/DM-1-2.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-10.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-11.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-12.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-3.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-4.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-5.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-6.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-7.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-8.mp4
+Discrete_Mathematics/Ders_Kayitlari/DM-9.mp4
+Fizik/Ders_Notları/Problem Solving-CEN1.pdf
+Fizik/Ders_Notları/Serway Fizik 2 Türkçe  180.pdf
+General_Lectures/Ders_Kayitlari/2020-12-01 17-39-02.mp4
+General_Lectures/Ders_Kayitlari/2020-12-07 17-34-41.mp4
+General_Lectures/Ders_Kayitlari/HW2.mp4
+General_Lectures/Ders_Kayitlari/dfa.mp4
+General_Lectures/Ders_Kayitlari/nfa.mp4
+General_Lectures/Ders_Kayitlari/tocHW.mp4
+General_Lectures/Ders_Notları/Intro_to_Java_Programming(10th_Edition).pdf
+General_Lectures/Ders_Notları/LinuxDersi.pdf
+General_Lectures/Ders_Notları/LinuxDersi.pptx
+General_Lectures/Ders_Notları/Python.pptx
+General_Lectures/Ders_Notları/Serway 1 ve 2 Çözümleri.onurdemirezen.com.pdf
+General_Lectures/Ders_Notları/siberGüvenlikVeEtikHacking1.pptx
+General_Lectures/Ders_Notları/siberGüvenlikVeEtikHacking2.pptx
+General_Lectures/Ders_Notları/zTümSlaytlar.pdf
+Introduction_to_Computer/Ders_Notları/1. kaynak.pdf
+Introduction_to_Computer/Ders_Notları/Introduction to Java Programming Comprehensive Version 11th Ed.pdf
+Introduction_to_Computer/Ders_Notları/R for Data Science- Import, Tidy, Transform, Visualize, and Model Data.pdf
+Micro_Processor/Sınav_Soruları/.mikro çıkmışlarr 2020.pdf
+NLP/Ders_Notları/(15)referenceBook.pdf
+Operating_Systems/Ders_Kayitlari/CEN354 Operating Systems-20210324_184644-Toplantı Kaydı.mp4
+Operating_Systems/Ders_Notları/-Differential_Equations-J Shepley_L._Ross.pdf
+Operating_Systems/Ders_Notları/ch11.pptx
+Operating_Systems/Ders_Notları/ch12.pptx
+Operating_Systems/Ders_Notları/ch2.pptx
+Operating_Systems/Ders_Notları/ch2_kopya1.pptx
+Probability/Ders_Notları/Probability, Random Variables and Stochastic Processes Solutions - Papoulis.2002.pdf
+Probability/Ders_Notları/probability_lecture_notes_1.pdf
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211004_083118-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211011_083018-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211018_083011-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211025_083007-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211101_083034-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211108_083004-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211115_083413-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211122_083033-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211129_083012-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211206_083027-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211213_083103-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211220_083015-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20211227_083015-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Kayitlari/TÜRK DİLİ I UTD 201-20220103_083129-Toplantı Kaydı.mp4
+Programming_Languages/Ders_Notları/AtamveAdanam.pdf
+Programming_Languages/Ders_Notları/AtamveAdanam2.pdf
+Programming_Languages/Ders_Notları/AtamveAdanam3.pdf
+Programming_Languages/Ders_Notları/AtamveAdanam4.pdf
+Signal_Systems/Ders_Notları/BÖLÜM1.pdf
+Signal_Systems/Ders_Notları/bölüm3.pdf
+Signal_Systems/Ders_Notları/bölüm4.pdf
+Signal_Systems/Ders_Notları/bölüm5.pdf
+Signal_Systems/Ders_Notları/sinyaller-ve-sistemler(43).pdf
+Software_Engineering/Ders_Notları/The 8086 microprocessor  architecture, software, and interfacing.pdf
+# === OS & IDE temporary files ===
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
