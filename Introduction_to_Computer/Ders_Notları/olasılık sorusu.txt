@@ -1,0 +1,68 @@
+Meþhur Olasýlýk Sorusu
+Olasýlýk vizesinde çýkan sorunun kýsa bir tarihçesi ve çözüm yöntemi
+
+profesyonel matematikçileri birbirlerine küfrettirebilecek kadar yanýltabilen ve sinirlendirebilen, yakýþýklý bir problem. doðru cevabýn insana son derece akla aykýrý gelmesi nedeniyle bunu bir "paradoks" olarak ananlar da vardýr, ama paradoks deðildir.
+popülerleþmesine yol açan 1990 tarihli gazete makalesinde monty hall adlý bir zatýn sunduðu "let's make a deal" adlý yarýþma programý kullanýldýðý için bu adla yaygýnlaþmýþ.
+
+hikaye þöyle:
+yarýþma programýnda yarýþmacýsýnýz, üç kapý var; kapýlardan birinin arkasýnda bir otomobil, ikisinin arkasýnda birer keçi var. siz rastgele bir kapýyý seçiyorsunuz. demek ki, arkasýnda otomobil olan kapýyý seçme ihtimaliniz 1/3.
+
+bu noktada yarýþmanýn sunucusu olan meþhur monty hall diðer iki kapýdan birini açýyor, kapýnýn arkasýndaki keçiyi size gösteriyor. ardýndan seçiminizi deðiþtirip deðiþtirmeyeceðinizi soruyor. deðiþtirmeli misiniz, bir þey farkeder mi?
+
+seçiminizi deðiþtirmezseniz kazanma ihtimaliniz hala 1/3. demek ki, deðiþtirirseniz (yani seçmediðiniz ve monty hall'ýn açmadýðý kapýyý seçerseniz) kazanma ihtimaliniz 1-1/3 = 2/3'tür.
+
+insanlarý çýldýrtan nokta ise þudur: siz bir seçim yapmadan önce monty hall kapýlardan birini açýp size keçiyi gösterdi; þimdi otomobili bulma ihtimaliniz 1/2'dir. iki durum arasýnda bir fark var mý?
+
+100 kapi ornegi verilmeliydi belki.. soyle ki monty hall onunuze 100 kapi koyuyor, siz bi tercih yapiyorsunuz.. o kapida araba olma ihtimali 1/100.. simdi monty gidip 98 kapi aciyor ve hepsinde keci var, geriye 2 kapi kaliyor.. sonra da size donup soruyor, degistirmek ister misiniz?
+
+kisa bi hesapla sectiginiz 1/100 ise, geri kalanlar 99/100 olmali sonucuna varilir.. iki kapi kaldi simdi yani olasiliklar 1/2 degil mi diyene 98 kapiyi acmak yerine soyle de ifade edebilirdik: sectigin 1 kapiyi mi elinde tutmak istersin yoksa kalan 99 kapiyi birden secmek mi?
+
+bunu n kapiya da genellemisler sonra tabi.. 4 kapi ornegine bakalim gorus almak icin.. bir kapi seciyorsunuz ilk adimda, sonra bir kecili kapi aciyor monty ve size soruyor degistirmek ister misin diye.. bir sonraki adimda bir kecili kapi daha aciyor ve son kez soruyor degistirmek isteyip istemediginizi..
+
+simdi ilk adimda sectiginiz kapida araba olmasi ihtimali 1/4, digerlerinde 3/4.. monty onlardan birini actiginda 2 kapinin olasiliklari 3/4*1/2 = 3/8 oluyor.. bu adimda degistirmezseniz kapinizi bi sonraki adimda kalan diger kapinin olasiligi 3/4 olacak.. bu adimda degistirirseniz kapinizi bi sonraki adimdaki diger kapinin olasiligi 3/8+1/4 = 5/8 olacak, elinizdeki kapinin ki ise 3/8'de kalacak.. iki adimda da degistirmezseniz 1/4 kalacak elinizde.. adam gibi toplayacak olursak (t-tut, d-degistir):
+
+p(t,t) = 1/4
+p(t,d) = 3/4
+p(d,t) = 3/8
+p(d,d) = 5/8
+
+yani en mantikli secenek ilk seferde tutup ikincide degistirerek 3/4 ihtimale ulasmak.. n kapili problemde de en iyi taktik zaten (n-1)/n olasilik saglayacak olan sona kadar tut, en sonda degistir taktigi..
+
+Bu da Daha matematikseliymiþ
+
+þöyle ki:
+
+***************************
+deðiþtirirsek (durum 1)
+
+kazanma olasýlýðý 1 = (1. tercihte tutturmuþ olma olasýlýðý)*(1. tercihte zaten tutturmuþ olup 2. tercihte de tutturma olasýlýðý) + (1. tercihte tuturamamýþ olma olasýlýðý)*(1. tercihte zaten tutturamamýþ olup 2. tercihte tutturma olasýlýðý)
+
+1. tercihte zaten tutturmuþ olup 2. tercihte de tutturma olasýlýðý = 0 (tercihimizi deðiþtiriyoruz çünkü)
+
+kazanma olasýlýðý 1 = (1/n)*0 + [(n-1)/n]*[1/(n-2)]
+
+= (n-1) / [n*(n-2)]
+
+***************************************
+
+deðiþtirmezsek (durum 2):
+
+kazanma olasýlýðý 2 = (1. tercihte tutturmuþ olma olasýlýðý)*(1. tercihte zaten tutturmuþ olup 2. tercihte de tutturma olasýlýðý) + (1. tercihte tuturamamýþ olma olasýlýðý)*(1. tercihte zaten tutturamamýþ olup 2. tercihte tutturma olasýlýðý)
+
+1. tercihte zaten tutturamamýþ olup 2. tercihte tutturma olasýlýðý = 0 (çünkü tercihimiz ayný kalýyor)
+
+kazanma olasýlýðý 2 = (1/n)*1 + [(n-1)/n]*0
+
+= 1/n
+
+******************************
+
+sonuç:
+
+n>=3 ve n tam sayý olan durumlarda:
+
+(n-1) / [n*(n-2)] > 1/n
+
+yani,
+
+kazanma olasýlýðý 1 > kazanma olasýlýðý 2 
