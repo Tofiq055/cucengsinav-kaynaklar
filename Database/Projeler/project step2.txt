@@ -1,0 +1,5 @@
+Project – Step2
+
+In the second step of your Project design, revise your problem definition according to the feedbacks given by your teaching assistant, and start your database design. Determine entities, relationships, attributes, keys, and constraints of your problem description, and draw an Entity-Relationship diagram of your project. After that, give database schema, and determine foreign keys.
+
+Submit your E/R diagram and database schema until 16th of April up to 17:00 to me or your teaching assistant.

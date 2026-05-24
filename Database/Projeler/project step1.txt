@@ -1,0 +1,45 @@
+Project – Step1
+
+For this step, first of all you have to determine your project topic and project group members. Each group can have up to 4 students. You can choose one of the below topics for your project work.
+
+Topics:
+
+· Supermarket On-line Sales System
+
+· Airline Reservation System
+
+· An e-commerce system (i.e., electronics device sales system, bookstore, etc.)
+
+· Bus reservation system
+
+· For hospitals, appointment and patient registration system
+
+· Hotel reservation system
+
+· Student registration system
+
+· Hotel reception and management system
+
+· Doctor office management system
+
+· Pharmacy management system
+
+· Sport center management system
+
+· Health center management system
+
+You can use any programming language and any database management system provided that your system is Web-based.
+
+In this step of your project work, you have to give a detailed description of your project topic including:
+
+- Users of your system: Which kinds of users will use your system? (i.e., admin, customers, patients, receptionists, etc.)
+
+- Describe what each user group will do by using your system.
+
+- What is the purpose of your system?
+
+- Entities of your system: List and describe all the entities in your system. Give attributes of the entities.
+
+- Relationships in your system: List and describe all kind of relationships between the entities. Give attributes of the entities.
+
+Write the name of the project topic, names and student ids of the group member, and give detailed description for the above items into a word document. Upload this document until March 13th 2015 up to 23.

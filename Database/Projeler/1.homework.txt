@@ -1,0 +1,51 @@
+Answer the following questions. Do your own work while answering the questions. Write your answers in a Word document and print this document; or write your answers on a paper, and then submit your solutions to me or Ezgi Zorarpacý. If you can’t find us in our office, put your homework into my mailbox which is at the department secretary’s office.
+
+Due: April 7th, 2015
+
+ 
+
+Consider the following schema:
+
+ 
+
+Companies(cid: integer, cname: string, address: string)
+
+Products(pid: integer, pname: string)
+
+Produce(cid: integer, pid: integer, cost: real)
+
+ 
+
+The key fields are underlined, and the domain of each field is listed after the field name. Therefore c id is the key for Companies, pid is the key for Products, and cid and pid together form the key for Produce. The Produce relation lists the products that are produced by Companies, and prices charged for products by Companies.
+
+ 
+
+1. Write the following queries in relational algebra:
+
+ 
+
+a) Find the names of companies who produce products with pname=”milk” .
+
+b) Find the c id s of companies who produce “milk” or “sugar”.
+
+c) Find the cids of companies who produce both “milk” and “sugar”.
+
+d) Find the cnames of companies who produce some products that are produced by the company having name “XYZ”.
+
+e) Find the cids of companies who produce every products.
+
+f) Find the cids of companies who produce every “milk” products.
+
+g) Find the cids of companies who produce “milk” but not “sugar”.
+
+h) Find the names of companies who do not produce any product.
+
+i) Find the names of companies who produce at least one product.
+
+j) Find the name of the most expensive product.
+
+k) Find the pids of the most expensive product produced by company named “XYZ”.
+
+ 
+
+2. Write the queries given in a, b, c, d, g, h, i in standard SQL.
